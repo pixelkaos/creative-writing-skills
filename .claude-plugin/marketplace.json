@@ -1,11 +1,11 @@
 {
-  "name": "cw",
+  "name": "kf-cw",
   "owner": {
     "name": "Jimmy Yao",
     "email": "dev.jimm.py@gmail.com"
   },
   "metadata": {
-    "description": "Creative writing agents and skills for Claude Code",
+    "description": "Kugelfisch-Pin von haowjy/creative-writing-skills v0.5.10 (Umlaut-Fix, Modell-Aliase)",
     "version": "0.5.10"
   },
   "plugins": [

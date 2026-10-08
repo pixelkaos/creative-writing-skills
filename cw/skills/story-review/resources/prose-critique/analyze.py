@@ -16,9 +16,9 @@ from collections import Counter
 from pathlib import Path
 
 
-WORD_RE = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?")
+WORD_RE = re.compile(r"[^\W\d_]+(?:['’][^\W\d_]+)?")  # Kugelfisch-Pin: auch Umlaute/ß
 SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
-QUOTE_RE = re.compile(r'".+?"')
+QUOTE_RE = re.compile(r'"[^"]+?"|„[^“”]+?[“”]|»[^«]+?«|“[^”]+?”')  # Kugelfisch-Pin: dt./frz. Anführungszeichen
 
 PRONOUN_STARTS = {
     "i",

@@ -18,6 +18,7 @@ skills:
 - grill-with-docs
 - structured-artifact
 tools:
+- Agent
 - Bash(cat *)
 - Bash(find *)
 - Bash(rg *)

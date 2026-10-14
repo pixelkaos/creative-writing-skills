@@ -5,12 +5,13 @@
     "email": "dev.jimm.py@gmail.com"
   },
   "metadata": {
-    "description": "Kugelfisch-Pin von haowjy/creative-writing-skills v0.5.10 (Umlaut-Fix, Modell-Aliase)",
-    "version": "0.5.10"
+    "description": "Kugelfisch-Pin von haowjy/creative-writing-skills v0.5.11 (muse mit Helfern, Umlaut-Fix, Modell-Aliase)",
+    "version": "0.5.11-kf.1"
   },
   "plugins": [
     {
       "name": "creative-writing-skills",
+      "version": "0.5.11-kf.1",
       "description": "Composable agents and skills for creative writing projects. The muse agent is the primary entry point: use it as your session agent (--agent creative-writing-skills:muse) to get a creative partner that brainstorms, drafts, critiques, and maintains your story's knowledge base.",
       "source": "./cw"
     }
